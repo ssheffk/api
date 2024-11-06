@@ -10,7 +10,7 @@ app = FastAPI()
 # Allow your Svelte app origin
 origins = [
     "http://localhost:5173",  # Replace with your local dev URL or production URL
-    "https://avariite.vercel.app/"
+    "https://avariite.vercel.app"
 ]
 
 app.add_middleware(
